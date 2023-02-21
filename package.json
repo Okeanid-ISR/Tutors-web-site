@@ -1,13 +1,12 @@
 {
   "name": "tutor-web-site",
-  "source": "src/index.html",
+  "source": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/Okeanid-ISR/Tutors-web-site.git",
   "author": "Okeanid-ISR <78822546+Okeanid-ISR@users.noreply.github.com>",
   "license": "MIT",

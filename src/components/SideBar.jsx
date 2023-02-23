@@ -1,9 +1,9 @@
 const SideBar = () => {
     return (
         <nav className="fixed inset-0 bg-[rgba(0,0,0,0.3)] backdrop-blue-sm z-10">
-            <div className="w-[311px] bg-regal-blue absolute left-0 h-screen">
+            <div className="w-[275px] bg-regal-blue absolute left-0 h-screen">
                 <div className="p-[24px] mb-[36px] flex justify-start items-center">
-                    <img className="w-[80px]" src="https://cdn-icons-png.flaticon.com/512/2179/2179415.png"/>
+                    <img className="w-[80px] cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/2179/2179415.png"/>
                     {/*<span className="hover:text-2xl transition  ml-[12px] text-[1.4rem] font-medium tracking-wider cursor-pointer text-white">LearnLift</span>*/}
                 </div>
                 <ul className="py-[6px] px-[32px] text-[#393ch1]">
@@ -96,6 +96,18 @@ const SideBar = () => {
                         </a>
                     </li>
                 </ul>
+
+            </div>
+            <div className="fixed bottom-[50px] left-[45px] flex tracking-wider
+                            rounded-xl transition duration-[0.3s] hover:bg-[#f5f5f5] hover:text-[#181b21] py-[8px] px-[10px] border-[1.8px] border-[black]">
+                <a href="#" className="font-medium flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                         stroke="currentColor" className="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"/>
+                    </svg>
+                    <span className="text-[1.2rem] mx-[12px]">Logout</span>
+                </a>
             </div>
         </nav>
     )

@@ -1,7 +1,7 @@
 const SideBar = () => {
     return (
-        <nav className="fixed w-full max-w-xxl inset-0 backdrop-blue-sm z-10">
-            <div className="bg-regal-blue absolute left-0 h-screen">
+        <nav className="w-1/7 inset-0 backdrop-blue-sm z-10">
+            <div className="bg-regal-blue left-0 h-screen">
                 <div className="p-[24px] mb-[36px] flex justify-start items-center">
                     <img className="w-[80px] cursor-pointer"
                          src="https://cdn-icons-png.flaticon.com/512/2179/2179415.png"/>

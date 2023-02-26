@@ -1,9 +1,10 @@
 const SideBar = () => {
     return (
-        <nav className="fixed inset-0 bg-[rgba(0,0,0,0.3)] backdrop-blue-sm z-10">
-            <div className="w-[275px] bg-regal-blue absolute left-0 h-screen">
+        <nav className="fixed w-full max-w-xxl inset-0 backdrop-blue-sm z-10">
+            <div className="bg-regal-blue absolute left-0 h-screen">
                 <div className="p-[24px] mb-[36px] flex justify-start items-center">
-                    <img className="w-[80px] cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/2179/2179415.png"/>
+                    <img className="w-[80px] cursor-pointer"
+                         src="https://cdn-icons-png.flaticon.com/512/2179/2179415.png"/>
                     {/*<span className="hover:text-2xl transition  ml-[12px] text-[1.4rem] font-medium tracking-wider cursor-pointer text-white">LearnLift</span>*/}
                 </div>
                 <ul className="py-[6px] px-[32px] text-[#393ch1]">
@@ -16,7 +17,7 @@ const SideBar = () => {
                                       d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184"/>
                             </svg>
                             <span
-                            className="mx-[12px]">Dashboard</span>
+                                className="mx-[12px]">Dashboard</span>
                         </a>
                     </li>
                     <li>
@@ -29,7 +30,7 @@ const SideBar = () => {
                             </svg>
 
                             <span
-                            className="mx-[12px]">Analysis</span></a>
+                                className="mx-[12px]">Analysis</span></a>
                     </li>
                     <li>
                         <a href="#" className="flex w-full mb-[12px] py-[6px] px-[8px] text-[1rem] font-medium tracking-wider
@@ -41,7 +42,7 @@ const SideBar = () => {
                             </svg>
 
                             <span
-                            className="mx-[12px]">Documents</span></a>
+                                className="mx-[12px]">Documents</span></a>
                     </li>
                     <li>
                         <a href="#" className="flex w-full mb-[12px] py-[6px] px-[8px] text-[1rem] font-medium tracking-wider
@@ -53,7 +54,7 @@ const SideBar = () => {
                             </svg>
 
                             <span
-                            className="mx-[12px]">Inbox</span></a>
+                                className="mx-[12px]">Inbox</span></a>
                     </li>
                     <li>
                         <a href="#" className="flex w-full mb-[12px] py-[6px] px-[8px] text-[1rem] font-medium tracking-wider
@@ -65,7 +66,7 @@ const SideBar = () => {
                             </svg>
 
                             <span
-                            className="mx-[12px]">History</span></a>
+                                className="mx-[12px]">History</span></a>
                     </li>
                     <li>
                         <a href="#" className="flex w-full mb-[12px] py-[6px] px-[8px] hover: text-[1rem] font-medium tracking-wider
@@ -79,7 +80,7 @@ const SideBar = () => {
                             </svg>
 
                             <span
-                            className="mx-[12px]">Settings</span></a>
+                                className="mx-[12px]">Settings</span></a>
                     </li>
                     <li>
                         <a href="#" className="flex w-full mb-[8px] py-[8px] px-[10px] text-[1rem] font-medium tracking-wider
@@ -91,16 +92,18 @@ const SideBar = () => {
                             </svg>
                             <span className="ml-[12px] flex flex-col">
                                 <span>Israel</span>
-                                <span className="transition text-[#5c5d61] hover:text-[#181b21] hover:shadow-border text-[12px] leading-[20px]">English</span>
+                                <span
+                                    className="transition text-[#5c5d61] hover:text-[#181b21] hover:shadow-border text-[12px] leading-[20px]">English</span>
                             </span>
                         </a>
                     </li>
                 </ul>
 
             </div>
-            <div className="fixed bottom-[50px] left-[45px] flex tracking-wider
-                            rounded-xl transition duration-[0.3s] hover:bg-[#f5f5f5] hover:text-[#181b21] py-[8px] px-[10px] border-[1.8px] border-[black]">
-                <a href="#" className="font-medium flex items-center">
+            <div className="fixed cursor-pointer bottom-[50px] left-[45px] flex tracking-wider
+                            rounded-xl transition duration-[0.3s] hover:bg-[#f5f5f5] flex hover:text-[#181b21]
+                             text-white py-[8px] px-[10px] border-[1.8px] border-[white] hover:border-[black]">
+                <a href="#" className="font-medium flex items-center hover:text-[#000000]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                          stroke="currentColor" className="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
